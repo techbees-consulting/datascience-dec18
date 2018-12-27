@@ -31,9 +31,12 @@
 # while i < len(first_10):
 #     sum += first_10[i]
 #     i+=1
-n=40
-for i in range(1,10):
-    print('*'*(i))
-    n-=1
+# n=40
+# # for i in range(1,10):
+# #     print('*'*(i))
+# #     n-=1
 # print('sum is :',sum)
+
+
+
 
