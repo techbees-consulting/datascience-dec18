@@ -3,16 +3,17 @@
 class NumberTooSmallError(Exception):pass
 
 class NumberTooBigError(Exception):
-    print('\nException: NumberTooBigError:\nYour number is too big. \nTry a smaller one!')
+    def __init__(self):
+        print('\nException: NumberTooBigError:\nYour number is too big. \nTry a smaller one!')
 
 class NumberThreeError(Exception):
-
+    def __init__(self):
         print ('\nException: ThreeNumberError:\nThree is not number ya\'re lookin\' for.\n')
 
 class NumberFiveError(Exception):pass #uncaught exception
 
-
-#function that uses user-defined exceptions
+#
+# #function that uses user-defined exceptions
 def checkNumber(num):
     if(num == 3):
         raise NumberThreeError
