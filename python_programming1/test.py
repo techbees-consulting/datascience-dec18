@@ -1,9 +1,9 @@
-from package1 import student as s
+from oops import student as s
 
 import os
 import sys,datetime
-from package1.human import Human
-from package1.inheritance import Son
+from oops.human import Human
+from oops.inheritance import Son
 
 # print(dir(os))
 # print(os.getcwd())
@@ -17,6 +17,9 @@ from package1.inheritance import Son
 tim = Son()
 tim.get_property()
 tim.dis_assets()
+
+
+
 
 
 
